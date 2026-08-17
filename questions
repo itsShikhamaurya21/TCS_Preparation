@@ -1,0 +1,53 @@
+DAY-1
+arranges the non zero elements and then zero elements 
+
+Day-2
+Airport security officials have confiscated several item of the passengers at the security check point. All the items have been dumped into a huge box (array). Each item possesses a certain amount of risk[0,1,2]. Here, the risk severity of the items represent an array[] of N number of integer values. The task here is to sort the items based on their levels of risk in the array. The risk values range from 0 to 2.
+
+Example :
+
+Input :
+
+7  -> Value of N
+
+[1,0,2,0,1,0,2]-> Element of arr[0] to arr[N-1], while input each element is separated by new line.
+
+Output :
+
+0 0 0 1 1 2 2  -> Element after sorting based on risk severity 
+
+Given an integer array Arr of size N the task is to find the count of elements whose value is greater than all of its prior elements.
+
+Note : 1st element of the array should be considered in the count of the result.
+
+For example,
+
+Arr[]={7,4,8,2,9}
+
+As 7 is the first element, it will consider in the result.
+
+8 and 9 are also the elements that are greater than all of its previous elements.
+
+Since total of  3 elements is present in the array that meets the condition.
+
+Hence the output = 3.
+
+ Example 1:
+
+Input 
+
+5 -> Value of N, represents size of Arr
+
+7-> Value of Arr[0]
+
+4 -> Value of Arr[1]
+
+8-> Value of Arr[2]
+
+2-> Value of Arr[3]
+
+9-> Value of Arr[4]
+
+Output :
+
+3
