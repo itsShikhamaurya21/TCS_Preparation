@@ -20,5 +20,5 @@ public class MissingValue {
     }
     // missing(arr);
     System.out.println(missing(arr));
-  }
+  
 }
