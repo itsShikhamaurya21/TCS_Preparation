@@ -16,7 +16,6 @@ public class CheckRotated {
     rotate(start, arr.length - 1, arr);
     rotate(0, start - 1, arr);
     rotate(0, arr.length - 1, arr);
-    // return -1;
   }
 
   public static int rotate(int start, int end, int arr[]) {
